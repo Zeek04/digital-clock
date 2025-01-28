@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock-container{
+    border: solid 10px black;
+    width: 400px;
+    background-color: rgba(34, 33, 33, 1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 25px;
+}
+
+#seconds{
+    color: red;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
